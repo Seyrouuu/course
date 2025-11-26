@@ -16,9 +16,6 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-# Aller dans le dossier course_project où se trouve manage.py
-WORKDIR /app/course_project
-
 RUN mkdir -p staticfiles
 RUN python manage.py collectstatic --noinput
 
