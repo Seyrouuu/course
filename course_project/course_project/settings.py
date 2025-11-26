@@ -28,7 +28,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'django_filters',
     'corsheaders',
-    'courses',
+    'course_project.courses',  # Changez cette ligne
 ]
 
 MIDDLEWARE = [
